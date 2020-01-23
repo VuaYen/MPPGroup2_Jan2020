@@ -1,4 +1,4 @@
 package model;
 
-public class Librarian extends Role {
+public class Librarian {
 }

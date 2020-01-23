@@ -1,4 +1,4 @@
 package model;
 
-public class Administrator extends Role {
+public class Administrator {
 }

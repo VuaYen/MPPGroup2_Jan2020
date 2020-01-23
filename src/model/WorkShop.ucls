@@ -3,7 +3,7 @@
   associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
   <class id="1" language="java" name="model.Book" project="WorkShopGroup2" file="/WorkShopGroup2/src/model/Book.java" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="135" width="87" x="184" y="147"/>    
+    <position height="135" width="87" x="562" y="230"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -12,7 +12,7 @@
   </class>  
   <class id="2" language="java" name="model.BookCopy" project="WorkShopGroup2" 
     file="/WorkShopGroup2/src/model/BookCopy.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="117" width="87" x="321" y="147"/>    
+    <position height="117" width="87" x="588" y="827"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -21,7 +21,7 @@
   </class>  
   <class id="3" language="java" name="model.Author" project="WorkShopGroup2" 
     file="/WorkShopGroup2/src/model/Author.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="189" width="113" x="184" y="358"/>    
+    <position height="171" width="107" x="440" y="423"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -30,7 +30,7 @@
   </class>  
   <class id="4" language="java" name="model.CheckOutEntries" project="WorkShopGroup2" 
     file="/WorkShopGroup2/src/model/CheckOutEntries.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="81" width="120" x="432" y="587"/>    
+    <position height="81" width="120" x="608" y="634"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -39,78 +39,131 @@
   </class>  
   <class id="5" language="java" name="model.Librarian" project="WorkShopGroup2" 
     file="/WorkShopGroup2/src/model/Librarian.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="81" width="87" x="448" y="147"/>    
+    <position height="81" width="87" x="293" y="230"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="6" language="java" name="model.FineRecord" project="WorkShopGroup2" 
+  <class id="6" language="java" name="model.Administrator" project="WorkShopGroup2" 
+    file="/WorkShopGroup2/src/model/Administrator.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="102" x="420" y="230"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="model.FineRecord" project="WorkShopGroup2" 
     file="/WorkShopGroup2/src/model/FineRecord.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="135" width="96" x="592" y="587"/>    
+    <position height="135" width="96" x="768" y="634"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="7" language="java" name="model.Member" project="WorkShopGroup2" 
+  <class id="8" language="java" name="model.Address" project="WorkShopGroup2" 
+    file="/WorkShopGroup2/src/model/Address.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="88" x="459" y="634"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="model.Member" project="WorkShopGroup2" 
     file="/WorkShopGroup2/src/model/Member.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="171" width="113" x="575" y="147"/>    
+    <position height="153" width="106" x="689" y="230"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="8" language="java" name="model.CheckOutRecord" project="WorkShopGroup2" 
+  <class id="10" language="java" name="model.CheckOutRecord" project="WorkShopGroup2" 
     file="/WorkShopGroup2/src/model/CheckOutRecord.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="117" width="121" x="567" y="358"/>    
+    <position height="117" width="121" x="689" y="423"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <association id="9">    
-    <end type="SOURCE" refId="1" navigable="false">      
-      <attribute id="10" name="bookcopys"/>      
-      <multiplicity id="11" minimum="0" maximum="2147483647"/>    
-    </end>    
-    <end type="TARGET" refId="1" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="12">    
-    <end type="SOURCE" refId="7" navigable="false">      
-      <attribute id="13" name="checkOutRecords"/>      
-      <multiplicity id="14" minimum="0" maximum="2147483647"/>    
+  <association id="11">    
+    <bendpoint x="598" y="423"/>    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="12" name="address"/>      
+      <multiplicity id="13" minimum="0" maximum="1"/>    
     </end>    
     <end type="TARGET" refId="8" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <association id="15">    
-    <end type="SOURCE" refId="1" navigable="false">      
-      <attribute id="16" name="authors"/>      
-      <multiplicity id="17" minimum="0" maximum="2147483647"/>    
+  <association id="14">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="15" name="address"/>      
+      <multiplicity id="16" minimum="0" maximum="1"/>    
     </end>    
-    <end type="TARGET" refId="3" navigable="true"/>    
+    <end type="TARGET" refId="8" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <association id="18">    
-    <end type="SOURCE" refId="8" navigable="false">      
-      <attribute id="19" name="checkOutEntrieses"/>      
-      <multiplicity id="20" minimum="0" maximum="2147483647"/>    
+  <association id="17">    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="18" name="checkOutEntrieses"/>      
+      <multiplicity id="19" minimum="0" maximum="2147483647"/>    
     </end>    
     <end type="TARGET" refId="4" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <association id="21">    
-    <end type="SOURCE" refId="8" navigable="false">      
-      <attribute id="22" name="fineRecord"/>      
-      <multiplicity id="23" minimum="0" maximum="1"/>    
+  <association id="20">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="21" name="checkOutRecords"/>      
+      <multiplicity id="22" minimum="0" maximum="2147483647"/>    
     </end>    
-    <end type="TARGET" refId="6" navigable="true"/>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="23">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="24" name="bookcp"/>      
+      <multiplicity id="25" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="26">    
+    <bendpoint x="577" y="423"/>    
+    <bendpoint x="577" y="634"/>    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="27" name="bookcopys"/>      
+      <multiplicity id="28" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="29">    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="30" name="fineRecord"/>      
+      <multiplicity id="31" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="32">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="33" name="authors"/>      
+      <multiplicity id="34" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="35">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="36" name="chekout"/>      
+      <multiplicity id="37" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
