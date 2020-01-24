@@ -29,9 +29,10 @@ public class BookCopy {
 	}
 	
 	
-	public boolean status() {
+	public boolean getStatus() {
 		return status;
 	}
+	
 
 	public int getcopyNO() {
 		return copyNO;

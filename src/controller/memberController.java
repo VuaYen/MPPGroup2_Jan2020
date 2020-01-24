@@ -23,7 +23,7 @@ private List<Member> memberList;
 	//	memberList = DataStore.getMemberList();
 	}
 	public memberController() {
-		this.memberList = getMemberList();
+		//this.memberList = loadMemberList();
 	}
 	void addLibraryMember(Member m)
 	{

@@ -109,18 +109,45 @@ public final class DummyData {
 		return null;
 	}
 
-	/*
-	 * public static void addBookCopy(int bookId) { bookCopyData.add(new
-	 * BookCopy(bookId, bookCopyAutoIncrement++)); }
-	 */
+	static int bookCopyAutoIncrement=170;
+	  public static void addBookCopy(Book book) { 
+		  bookcopylist.add(new BookCopy(book, bookCopyAutoIncrement++ )); 
+		  }
+	 
 
-	public static int getBookCopyNum(int bookId) {
+	public static int getBookCopyNum(Book book) {
 		int count = 0;
 		for (BookCopy c : bookcopylist) {
-			if (c.getcopyNO() == bookId)
+			if (c.getBook() == book)
 				count++;
 		}
 		return count;
+	}
+	public static String getAuthorlist(Book book) {
+		String result = "";
+		for (Author c : book.getAuthors()) {
+			if (c!=null)
+				result += c.getFirstName()+"  "+ c.getFirstName()+",";
+		}
+		return result;
+	}
+	
+	public static String getBookCopyAvailable(Book book) {
+		String result = "";
+		for (BookCopy c : bookcopylist) {
+			if (c.getBook() == book && c.getStatus()==true)
+				result += c.getcopyNO()+"  ";
+		}
+		return result;
+	}
+
+	public static String getBookCopyNotAvailable(Book book) {
+		String result = "";
+		for (BookCopy c : bookcopylist) {
+			if (c.getBook() == book && c.getStatus()==false)
+				result += c.getcopyNO()+"  ";
+		}
+		return result;
 	}
 
 	

@@ -9,12 +9,31 @@ public class Book {
 	private String title;
 	private String iSBN;
 	private int status; // 1 available 
+	private String authorlst;
 	
+	public String getAuthorlst() {
+		
+		return authorlst;
+	}
+
+	public void setAuthorlst() {
+		String result = "";
+		for (Author c : authors) {
+			if (c!=null)
+				result += c.getFirstName()+"  "+ c.getFirstName()+",";
+		}
+		 
+		
+		this.authorlst = result;
+	}
+
 	public Book( String iSBN,String title,  int status,List<Author> authors) {
 		this.authors = authors;
 		this.title = title;
 		this.iSBN = iSBN;
 		this.status = status;
+		this.bookcopys =null;
+		setAuthorlst();
 	}
 
 	public Book( String iSBN,String title,List<Author> authors, List<BookCopy> bookcopys,  int status) {
@@ -23,6 +42,7 @@ public class Book {
 		this.title = title;
 		this.iSBN = iSBN;
 		this.status = status;
+		setAuthorlst();
 	}
 
 	public List<Author> getAuthors() {
@@ -63,6 +83,22 @@ public class Book {
 
 	public void setStatus(int status) {
 		this.status = status;
+	}
+	public void addBookCopy(int numNo) {
+		int count = 0;
+		for (BookCopy c : bookcopys) {
+			if (c.getcopyNO() == numNo)
+				count++;
+		}
+		if(count ==0) {
+			BookCopy a =new BookCopy(this,numNo);
+			bookcopys.add(a);
+		}
+		
+	}
+	public void addAuthor(Author auth) {
+		authors.add(auth);
+		
 	}
 
 }
