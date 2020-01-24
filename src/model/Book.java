@@ -35,6 +35,9 @@ public class Book {
 		this.bookcopys =null;
 		setAuthorlst();
 	}
+	public Book( ) {
+		
+	}
 
 	public Book( String iSBN,String title,List<Author> authors, List<BookCopy> bookcopys,  int status) {
 		this.authors = authors;
