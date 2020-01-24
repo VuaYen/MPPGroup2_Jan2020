@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<class-diagram version="1.2.3" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+<class-diagram version="1.2.4" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
   associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
   <class id="1" language="java" name="model.Book" project="WorkShopGroup2" file="/WorkShopGroup2/src/model/Book.java" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="135" width="87" x="562" y="230"/>    
+    <position height="-1" width="-1" x="522" y="220"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -12,7 +12,7 @@
   </class>  
   <class id="2" language="java" name="model.BookCopy" project="WorkShopGroup2" 
     file="/WorkShopGroup2/src/model/BookCopy.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="117" width="87" x="588" y="827"/>    
+    <position height="-1" width="-1" x="521" y="891"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -21,7 +21,7 @@
   </class>  
   <class id="3" language="java" name="model.Author" project="WorkShopGroup2" 
     file="/WorkShopGroup2/src/model/Author.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="171" width="107" x="440" y="423"/>    
+    <position height="-1" width="-1" x="245" y="457"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -30,7 +30,7 @@
   </class>  
   <class id="4" language="java" name="model.CheckOutEntries" project="WorkShopGroup2" 
     file="/WorkShopGroup2/src/model/CheckOutEntries.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="81" width="120" x="608" y="634"/>    
+    <position height="-1" width="-1" x="669" y="643"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -39,7 +39,7 @@
   </class>  
   <class id="5" language="java" name="model.Librarian" project="WorkShopGroup2" 
     file="/WorkShopGroup2/src/model/Librarian.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="81" width="87" x="293" y="230"/>    
+    <position height="-1" width="-1" x="231" y="212"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -48,7 +48,7 @@
   </class>  
   <class id="6" language="java" name="model.Administrator" project="WorkShopGroup2" 
     file="/WorkShopGroup2/src/model/Administrator.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="81" width="102" x="420" y="230"/>    
+    <position height="-1" width="-1" x="342" y="122"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -66,7 +66,7 @@
   </class>  
   <class id="8" language="java" name="model.Address" project="WorkShopGroup2" 
     file="/WorkShopGroup2/src/model/Address.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="153" width="88" x="459" y="634"/>    
+    <position height="-1" width="-1" x="446" y="549"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -75,7 +75,7 @@
   </class>  
   <class id="9" language="java" name="model.Member" project="WorkShopGroup2" 
     file="/WorkShopGroup2/src/model/Member.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="153" width="106" x="689" y="230"/>    
+    <position height="-1" width="-1" x="784" y="280"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -84,7 +84,7 @@
   </class>  
   <class id="10" language="java" name="model.CheckOutRecord" project="WorkShopGroup2" 
     file="/WorkShopGroup2/src/model/CheckOutRecord.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="117" width="121" x="689" y="423"/>    
+    <position height="-1" width="-1" x="754" y="542"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -92,78 +92,114 @@
     </display>  
   </class>  
   <association id="11">    
-    <bendpoint x="598" y="423"/>    
-    <end type="SOURCE" refId="9" navigable="false">      
-      <attribute id="12" name="address"/>      
-      <multiplicity id="13" minimum="0" maximum="1"/>    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="12" name="chekout">        
+        <position height="0" width="0" x="1" y="-31"/>      
+      </attribute>      
+      <multiplicity id="13" minimum="0" maximum="1">        
+        <position height="0" width="0" x="1" y="-31"/>      
+      </multiplicity>    
     </end>    
-    <end type="TARGET" refId="8" navigable="true"/>    
+    <end type="TARGET" refId="4" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
   <association id="14">    
-    <end type="SOURCE" refId="3" navigable="false">      
-      <attribute id="15" name="address"/>      
-      <multiplicity id="16" minimum="0" maximum="1"/>    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="15" name="fineRecord">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="16" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
     </end>    
-    <end type="TARGET" refId="8" navigable="true"/>    
+    <end type="TARGET" refId="7" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
   <association id="17">    
     <end type="SOURCE" refId="10" navigable="false">      
-      <attribute id="18" name="checkOutEntrieses"/>      
-      <multiplicity id="19" minimum="0" maximum="2147483647"/>    
+      <attribute id="18" name="checkOutEntrieses">        
+        <position height="0" width="0" x="1" y="-31"/>      
+      </attribute>      
+      <multiplicity id="19" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="1" y="-31"/>      
+      </multiplicity>    
     </end>    
     <end type="TARGET" refId="4" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
   <association id="20">    
+    <bendpoint x="598" y="423"/>    
     <end type="SOURCE" refId="9" navigable="false">      
-      <attribute id="21" name="checkOutRecords"/>      
-      <multiplicity id="22" minimum="0" maximum="2147483647"/>    
+      <attribute id="21" name="address">        
+        <position height="0" width="0" x="-57" y="-161"/>      
+      </attribute>      
+      <multiplicity id="22" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-57" y="-161"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="23">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="24" name="checkOutRecords">        
+        <position height="0" width="0" x="5" y="61"/>      
+      </attribute>      
+      <multiplicity id="25" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="5" y="61"/>      
+      </multiplicity>    
     </end>    
     <end type="TARGET" refId="10" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <association id="23">    
-    <end type="SOURCE" refId="4" navigable="false">      
-      <attribute id="24" name="bookcp"/>      
-      <multiplicity id="25" minimum="0" maximum="1"/>    
-    </end>    
-    <end type="TARGET" refId="2" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
   <association id="26">    
-    <bendpoint x="577" y="423"/>    
-    <bendpoint x="577" y="634"/>    
     <end type="SOURCE" refId="1" navigable="false">      
-      <attribute id="27" name="bookcopys"/>      
-      <multiplicity id="28" minimum="0" maximum="2147483647"/>    
-    </end>    
-    <end type="TARGET" refId="2" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="29">    
-    <end type="SOURCE" refId="10" navigable="false">      
-      <attribute id="30" name="fineRecord"/>      
-      <multiplicity id="31" minimum="0" maximum="1"/>    
-    </end>    
-    <end type="TARGET" refId="7" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="32">    
-    <end type="SOURCE" refId="1" navigable="false">      
-      <attribute id="33" name="authors"/>      
-      <multiplicity id="34" minimum="0" maximum="2147483647"/>    
+      <attribute id="27" name="authors">        
+        <position height="0" width="0" x="-248" y="-51"/>      
+      </attribute>      
+      <multiplicity id="28" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="-248" y="-51"/>      
+      </multiplicity>    
     </end>    
     <end type="TARGET" refId="3" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <association id="35">    
-    <end type="SOURCE" refId="2" navigable="false">      
-      <attribute id="36" name="chekout"/>      
-      <multiplicity id="37" minimum="0" maximum="1"/>    
+  <association id="29">    
+    <bendpoint x="577" y="423"/>    
+    <bendpoint x="577" y="634"/>    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="30" name="bookcopys">        
+        <position height="0" width="0" x="-110" y="6"/>      
+      </attribute>      
+      <multiplicity id="31" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="-110" y="6"/>      
+      </multiplicity>    
     </end>    
-    <end type="TARGET" refId="4" navigable="true"/>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="32">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="33" name="address">        
+        <position height="0" width="0" x="-57" y="-161"/>      
+      </attribute>      
+      <multiplicity id="34" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-57" y="-161"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="35">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="36" name="bookcp">        
+        <position height="0" width="0" x="-110" y="6"/>      
+      </attribute>      
+      <multiplicity id="37" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-110" y="6"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 

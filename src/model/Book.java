@@ -8,10 +8,18 @@ public class Book {
 	List<BookCopy> bookcopys = new ArrayList<>();
 	private String title;
 	private String iSBN;
-	private int status;
+	private int status; // 1 available 
 	
-	public Book( String title, String iSBN, int status) {
-		
+	public Book( String iSBN,String title,  int status,List<Author> authors) {
+		this.authors = authors;
+		this.title = title;
+		this.iSBN = iSBN;
+		this.status = status;
+	}
+
+	public Book( String iSBN,String title,List<Author> authors, List<BookCopy> bookcopys,  int status) {
+		this.authors = authors;
+		this.bookcopys = bookcopys;
 		this.title = title;
 		this.iSBN = iSBN;
 		this.status = status;
